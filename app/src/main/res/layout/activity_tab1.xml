@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab1_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.goodbyeda.tabhost.Tab1">
+
+    <fragment
+        android:name="com.example.goodbyeda.tabhost.Tab1Input"
+        android:id="@+id/tab1_input_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:name="com.example.goodbyeda.tabhost.Tab1Picker"
+        android:id="@+id/tab1_picker_frag"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:name="com.example.goodbyeda.tabhost.Tab1List"
+        android:id="@+id/tab1_list_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:name="com.example.goodbyeda.tabhost.Tab1List"
+        android:id="@+id/tab1_detail_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
